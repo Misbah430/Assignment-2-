@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Bookish Bean</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      
+        <nav>
+            <img src="./Image/Bookish_Bean-removebg-preview.png" alt="Bookish Bean Logo" class="logo" >
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Contact Us</h1>
+        <h2>We'd Love to Hear From You</h2>
+        <form action="/submit-form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Send Message">
+        </form>
+
+        <h3>Our Contact Information</h3>
+        <p>Address: 123 Book Street, Fiction Town, BK</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: contact@bookishbean.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Bookish Bean. All rights reserved.</p>
+        
+    </footer>
+    
+</body>
+</html>
