@@ -5,14 +5,14 @@ header {
     padding: 20px;
 }
 
-/* Navigation bar styles */
+
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-/* Logo styles */
+
 .logo {
     width: 100px; 
     height: auto;
@@ -309,6 +309,58 @@ body {
     background-attachment: fixed; 
     background-position: center;  
 }
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+ 
+  @media (max-width: 600px) {
+    nav ul {
+      display: none; 
+    }
+    
+    .hamburger-menu {
+      display: block; 
+    }
+  }
+
+@media (max-width: 600px) {
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  }
+
+@media (max-width: 600px) {
+    body {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+  }
+  @media (max-width: 600px) {
+    body {
+      font-size: 18px;
+    }
+  
+    .books-list {
+      grid-template-columns: 1fr;
+    }
+  
+    nav ul {
+      display: none;
+    }
+    
+    .hamburger-menu {
+      display: block;
+    }
+  }
+       
 
 
 
